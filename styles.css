@@ -46,8 +46,7 @@
     display: block;
     padding-left: 1%;
     padding-right: 1%;
-    vertical-align: text-top;
-    text-align: center;
+    align-self: center;
 }
 
 .activity.activitystatus .modcontainer .modname {
@@ -87,6 +86,7 @@
 }
 
 .activity.activitystatus .widgetcontents {
+    display: flex;
     padding: 3% 0;
     /* fix scroll bar caused by margins on built-in .row class */
     margin-left: 0;
@@ -97,7 +97,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: block;
+    display: flex;
     width: 100%;
 }
 
