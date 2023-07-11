@@ -213,7 +213,7 @@ function activitystatus_cm_info_view(cm_info $cm) {
                 } else {
                     $statusimageurl = new moodle_url('/mod/activitystatus/pix/status.png');
                 }
-                $content .= html_writer::start_div('modcontainer col');
+                $content .= html_writer::start_div('modcontainer col-sm-4');
                 $content .= html_writer::link($mod->url, html_writer::div(html_writer::img($statusimageurl, get_string('statusimagealt', 'mod_activitystatus', $status)), 'activitystatus statusimage'));
                 $content .= html_writer::end_div();
             } else {
@@ -231,7 +231,7 @@ function activitystatus_cm_info_view(cm_info $cm) {
                     } else {
                         $statusimageurl = new moodle_url('/mod/activitystatus/pix/status.png');
                     }
-                    $content .= html_writer::start_div('modcontainer col');
+                    $content .= html_writer::start_div('modcontainer col-sm-4');
                     $courseurl = new moodle_url('/course/view.php', ['id' => $course->id]);
                     $content .= html_writer::link($courseurl, html_writer::div(html_writer::img($statusimageurl, get_string('statusimagealt', 'mod_activitystatus', $status)), 'activitystatus statusimage'));
                     $content .= html_writer::end_div();
