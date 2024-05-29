@@ -90,6 +90,7 @@
     background-size: contain;
     background-position: center;
     display: inline-block;
+    background-size: cover;
 }
 
 #page-mod-activitystatus-mod #fitem_id_default_status,
