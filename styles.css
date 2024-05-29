@@ -1,0 +1,136 @@
+#page-mod-activitystatus-mod .statusimagesettings .modsheader{
+    font-weight: 700;
+    font-size: 120%;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings .modinfo {
+    position: relative;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings .mods {
+    margin-top: 10px;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings .modname {
+    font-weight: 600;
+    font-size: 110%;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.imagefile {
+    display: inline-block;
+    width: 21%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.displayorder {
+    display: inline-block;
+    width: 8%;
+    padding-left: 0%;
+    padding-right: 1%;
+    position: absolute;
+    top: 50%;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.displayorder .fselect {
+    float: left;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.displayorder .fitemtitle {
+    display: block;
+    width: 100% !important;
+}
+
+.activity.activitystatus .modcontainer {
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-self: center;
+    height: 160px;
+    justify-content: center;
+}
+
+.activity.activitystatus .modcontainer .modname {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.imagefile .fitemtitle {
+    display: block;
+    width: 100% !important;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings .felement.ffilemanager {
+    width: auto !important;
+    float: left !important;
+}
+
+.activitystatus .contentwithoutlink {
+    display: block !important;
+}
+
+.activitystatus.statusimage {
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    width: auto;
+    height: 100%;
+}
+
+.activitystatus.statusimage img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.activity.activitystatus {
+    margin: auto;
+}
+
+.activity.activitystatus .widgetcontents {
+    padding: 1rem;
+/*    display: flex;
+    padding: 3% 0; */
+/*     fix scroll bar caused by margins on built-in .row class */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.activity.activitystatus .widgetcontainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;
+}
+
+#page-mod-activitystatus-mod #fitem_id_default_status,
+#page-mod-activitystatus-mod #fitem_id_default_background {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#page-mod-activitystatus-mod fieldset#id_activitycompletionheader,
+#page-mod-activitystatus-mod fieldset#id_availabilityconditionsheader,
+#page-mod-activitystatus-mod fieldset#id_modstandardelshdr {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .activity.activitystatus .modname {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .activity.activitystatus .modname {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 980px) {
+    .activity.activitystatus .modname {
+        font-size: 100%;
+    }
+}
